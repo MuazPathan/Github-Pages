@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f6f0" />
+  <meta name="description" content="Find the quieter side of Goa: secret beaches, forest waterfalls, island villages and slow travel inspiration." />
+  <title>Elsewhere Goa — Find your own Goa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Elsewhere Goa home">
+      <span class="brand-mark" aria-hidden="true">e.</span>
+      <span>elsewhere<span class="brand-goa">goa</span></span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#places">Hidden places</a>
+      <a href="#slow-guide">The slow guide</a>
+      <a class="nav-cta" href="#places">Find your Goa <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&amp;fit=crop&amp;w=2200&amp;q=88" alt="Palm-lined Goan coastline at golden hour" fetchpriority="high" />
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> A little further, a little slower</p>
+        <h1 id="hero-title">Find your<br /><em>own Goa.</em></h1>
+        <p class="hero-copy">Past the beach shacks and familiar roads, there’s a Goa that still feels like a secret.</p>
+        <a class="button button-light" href="#places">Take the scenic route <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-note"><span class="note-sparkle" aria-hidden="true">✳</span> Made for the curious kind</div>
+      <div class="hero-index"><span>01</span> / 06</div>
+    </section>
+
+    <section class="intro section-wrap" id="slow-guide">
+      <div class="intro-label"><span>THE OTHER SIDE</span><span class="label-dash"></span><span>15° 29' N, 73° 49' E</span></div>
+      <div class="intro-main">
+        <h2>Not a checklist.<br /><em>A feeling.</em></h2>
+        <div class="intro-copy">
+          <p>Go where the road gets quiet. Find a beach that doesn’t have a name on every map, a forest pool locals keep to themselves, a village that moves to its own time.</p>
+          <a class="text-link" href="#places">Meet the places <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <div class="intro-stats" aria-label="Guide details">
+        <div><strong>06</strong><span>places to begin</span></div>
+        <div><strong>∞</strong><span>ways to get lost</span></div>
+        <div class="stat-note">Go gently.<br />Leave it lovely.</div>
+      </div>
+    </section>
+
+    <section class="places-section" id="places">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> A few good places</p>
+            <h2>Take the <em>long way.</em></h2>
+          </div>
+          <p class="section-aside">For the early risers, the curious turn-takers<br class="desktop-break" /> and the “let’s see where this goes” people.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter places by type">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All places <span>06</span></button>
+          <button class="filter-button" type="button" data-filter="coast" aria-pressed="false">By the water</button>
+          <button class="filter-button" type="button" data-filter="nature" aria-pressed="false">In the wild</button>
+          <button class="filter-button" type="button" data-filter="culture" aria-pressed="false">Slow living</button>
+        </div>
+
+        <div class="places-grid">
+          <article class="place-card place-card-featured" data-category="coast">
+            <a class="place-image-link" href="https://maps.google.com/?q=Butterfly+Beach+Goa" target="_blank" rel="noopener noreferrer" aria-label="Find Butterfly Beach on a map">
+              <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Turquoise water curling onto a quiet sandy beach" loading="lazy" />
+              <span class="image-number">01 / COAST</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="place-info"><div><h3>Butterfly Beach</h3><p>South Goa <span>·</span> A beach worth the boat ride</p></div><span class="place-symbol" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="place-card" data-category="nature">
+            <a class="place-image-link" href="https://maps.google.com/?q=Netravali+Bubbling+Lake+Goa" target="_blank" rel="noopener noreferrer" aria-label="Find Netravali Bubbling Lake on a map">
+              <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A green forest waterfall tumbling into a natural pool" loading="lazy" />
+              <span class="image-number">02 / IN THE WILD</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="place-info"><div><h3>Netravali</h3><p>South Goa <span>·</span> Forest paths &amp; bubbling waters</p></div><span class="place-symbol" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="place-card" data-category="culture">
+            <a class="place-image-link" href="https://maps.google.com/?q=Divar+Island+Goa" target="_blank" rel="noopener noreferrer" aria-label="Find Divar Island on a map">
+              <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Pastel-colored old houses along a quiet village lane" loading="lazy" />
+              <span class="image-number">03 / SLOW LIVING</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="place-info"><div><h3>Divar Island</h3><p>North Goa <span>·</span> Village time, ferry pace</p></div><span class="place-symbol" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="place-card" data-category="coast">
+            <a class="place-image-link" href="https://maps.google.com/?q=Kakolem+Beach+Goa" target="_blank" rel="noopener noreferrer" aria-label="Find Kakolem Beach on a map">
+              <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A secluded cove backed by lush green cliffs" loading="lazy" />
+              <span class="image-number">04 / COAST</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="place-info"><div><h3>Kakolem Cove</h3><p>South Goa <span>·</span> Down the steps, out of the noise</p></div><span class="place-symbol" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="place-card" data-category="nature">
+            <a class="place-image-link" href="https://maps.google.com/?q=Chorla+Ghats+Goa" target="_blank" rel="noopener noreferrer" aria-label="Find Chorla Ghats on a map">
+              <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Misty green mountain valley at sunrise" loading="lazy" />
+              <span class="image-number">05 / IN THE WILD</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="place-info"><div><h3>Chorla Ghats</h3><p>Eastern Goa <span>·</span> A deep breath in the Western Ghats</p></div><span class="place-symbol" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="place-card" data-category="culture">
+            <a class="place-image-link" href="https://maps.google.com/?q=Cabo+de+Rama+Fort+Goa" target="_blank" rel="noopener noreferrer" aria-label="Find Cabo de Rama Fort on a map">
+              <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A rugged, windswept landscape looking out to the horizon" loading="lazy" />
+              <span class="image-number">06 / SLOW LIVING</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="place-info"><div><h3>Cabo de Rama</h3><p>South Goa <span>·</span> Old walls, endless ocean</p></div><span class="place-symbol" aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+        <p class="no-results" hidden>No places in this little corner just yet. Try another filter.</p>
+      </div>
+    </section>
+
+    <section class="closing section-wrap">
+      <span class="closing-flower" aria-hidden="true">✳</span>
+      <p class="eyebrow">A small note before you go</p>
+      <h2>Leave only<br /><em>footprints &amp; good stories.</em></h2>
+      <p class="closing-copy">Some of the best places are fragile. Take your time, support local hands, and leave the shore as lovely as you found it.</p>
+      <a class="button button-dark" href="#places">Wander a little <span aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#" aria-label="Elsewhere Goa home"><span class="brand-mark" aria-hidden="true">e.</span><span>elsewhere<span class="brand-goa">goa</span></span></a>
+    <span>A love letter to the places in between.</span>
+    <a href="#hero-title">Back to the beginning ↑</a>
+  </footer>
+
+  <script>
+    const filterButtons = document.querySelectorAll(".filter-button");
+    const placeCards = document.querySelectorAll(".place-card");
+    const noResults = document.querySelector(".no-results");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+        let visibleCount = 0;
+
+        filterButtons.forEach((item) => {
+          const isActive = item === button;
+          item.classList.toggle("active", isActive);
+          item.setAttribute("aria-pressed", String(isActive));
+        });
+
+        placeCards.forEach((card) => {
+          const isVisible = filter === "all" || card.dataset.category === filter;
+          card.hidden = !isVisible;
+          if (isVisible) visibleCount += 1;
+        });
+
+        noResults.hidden = visibleCount > 0;
+      });
+    });
+
+    const menuToggle = document.querySelector(".menu-toggle");
+    const siteNav = document.querySelector(".site-nav");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+      menuToggle.setAttribute("aria-expanded", String(!isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Open navigation" : "Close navigation");
+      siteNav.classList.toggle("is-open", !isOpen);
+    });
+
+    siteNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation");
+        siteNav.classList.remove("is-open");
+      });
+    });
+  </script>
+</body>
+</html>
